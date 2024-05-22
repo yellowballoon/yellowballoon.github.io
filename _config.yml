@@ -1,7 +1,7 @@
 remote_theme : samesies/barber-jekyll
 
 # Site/SEO settings
-email: okay@samesies.io
+email: master@ybtour.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
@@ -18,8 +18,8 @@ social:
     url: https://github.com/yellowballoon
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com/s/HkIo0nMb7
+# contact_img: /assets/images/placeholder-28.jpg
+# formcarry: https://formcarry.com/s/HkIo0nMb7
 
 # Disqus settings
 disqus: test-apkdzgmqhj
@@ -31,7 +31,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 # Author settings
 author:
   - name: yellowballoon
-    bio: yellowballoon admin.
+    bio: yellowballoon administrator
     url: https://www.ybtour.com
 
 # Pagination settings
