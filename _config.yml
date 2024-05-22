@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "yellowballoon"
-  avatar           : https://static.ybtour.com/images/ybcloud.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/ybcloud.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "나는 **관리자**"
   location         : "Somewhere"
   email            : "master@ybtour.com"
