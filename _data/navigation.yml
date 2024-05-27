@@ -1,0 +1,10 @@
+
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+foo:
+  - title: "노랑풍선 여행"
+    url: https://www.ybtour.co.kr
+main:
+  - title: "노랑풍선"
+    url: https://company.ybtour.co.kr
