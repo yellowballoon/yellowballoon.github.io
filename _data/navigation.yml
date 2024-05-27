@@ -12,4 +12,5 @@ foo:
     url: https://www.ybtour.co.kr
 main:
   - title: "노랑풍선"
+    description: 노랑풍선 기업사이트
     url: https://company.ybtour.co.kr
