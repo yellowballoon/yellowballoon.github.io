@@ -1,14 +1,17 @@
 
-breadcrumb_home_label : "Home"
-breadcrumb_separator  : ">"
 main:
   - title: "공지사항"
     url: /notics/
 sidebar:
-  - title: "TechBlog-test"
-    url: /TechBlog/
-  - title: "노랑풍선"
-    description: 노랑풍선 기업사이트
-    url: https://company.ybtour.co.kr
-  - title: "노랑풍선 여행"
-    url: https://www.ybtour.co.kr
+  - title: "Test"
+    children:
+      - title: "기술블로그"
+        url: /TechBlog/
+  - title: "노랑풍선 사이트"
+    children:
+      - title: "노랑풍선 기업사이트"
+        description: "노랑풍선 기업사이트"
+        url: https://company.ybtour.co.kr
+      - title: "노랑풍선 여행사이트"
+        description: "노랑풍선 여행사이트"
+        url: https://www.ybtour.co.kr
