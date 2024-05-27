@@ -1,12 +1,12 @@
 
 breadcrumb_home_label : "Home"
-breadcrumb_separator  : "/"
-sidebar:
+breadcrumb_separator  : ">"
+main:
   - title: "공지사항"
     url: /notics/
+sidebar:
   - title: "TechBlog-test"
     url: /TechBlog/
-main:
   - title: "노랑풍선"
     description: 노랑풍선 기업사이트
     url: https://company.ybtour.co.kr
