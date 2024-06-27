@@ -368,3 +368,5 @@ spring.redis.client-type=jedis
 [[우아한테크세미나] 191121 우아한레디스 by 강대명님](https://youtu.be/mPB2CZiAkKM?feature=shared)
 
 [우아한테크세미나 Redis 후기](https://ict-nroo.tistory.com/133)
+
+[[Redis] 레디스를 파헤쳐 보자!](https://velog.io/@dodozee/Redis)
