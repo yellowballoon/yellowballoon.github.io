@@ -2,7 +2,7 @@
 title: "Redis with Springboot"
 date: 2024-06-17 10:15:00
 categories: wiki
-author: yellowballoon
+author: kgi0412
 tags: wiki redis springboot
 ---
 with ChatGPT-4o
