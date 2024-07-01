@@ -8,6 +8,8 @@ tags: wiki node
 
 ## Express js
 
+관련 사이트: https://expressjs.com/
+
 Express는 불필요한 것들을 제외하고 필수적인 것들로만 구성한 프레임워크입니다.
 
 ### 장점
@@ -27,6 +29,8 @@ Express는 추가적인 설정 없이도 사용자들의 request와 response에 
 Express는 코드 설계 혹은 표준과 같은 것에 특정한 제약을 걸지 않기 때문에 확장성에 강점을 가지고 있기도 하지만 단점을 가지고 있기도 합니다. 순전히 개발자의 역량에 따라 좌우되기 때문에 비일관적인 문제들이 발생할 수 있으므로 세심한 주의가 필요합니다.
 
 ## Nest js
+
+관련 사이트: https://nestjs.com/
 
 Nest js는 고도로 확장 가능한 서버 사이드 애플리케이션을 만들 수 있는 백엔드 프레임워크입니다. Nest js는 OOP(Object Oriented Programming), FP(Functional Programming) 그리고 FRP(Functional Reactive Programming)의 요소들을 통합시켰습니다. 또한 TypeScript로 만들어져 타입 호환이 된다는 특징을 가지고 있습니다.
 
@@ -48,6 +52,8 @@ Nest js는 Angular의 영향을 많이 받은 프레임워크로 Angular 형식�
 
 ## Koa js
 
+관련 사이트: https://koajs.com/
+
 Express js를 개발한 팀이 만든 백엔드 프레임워크로 더 빠른 서버를 개발할 수 있도록 하고 API를 개발하는데 많은 기능을 제공합니다.
 
 ### 장점
@@ -68,7 +74,9 @@ Koa 커뮤니티는 여전히 작습니다. 따라서 발생하는 문제들에 
 
 ## Hapi
 
-Hapi는 확장 가능한 웹 애플리케이션을 만드는데 사용되는 백엔드 프레임워크입니다. Hapi는 외부 코드와 어떠한 의존성도 갖지 않으므로 모든 코드들이 검증 되었다고 볼 수 있습니다. Hapi는 서명 및 암호화된 쿠키와 HTTP 보안 헤더 등을 제공하는 등 보안성에 많은 관심을 가지고 있습니다. 개발자들은 문제들을 해결하기 위해 다른 npm 패키지에 의존할 필요 없이 hapi에서 제공하는 자체 공식 플러그인을 이용할 수 있습니다. 그리고 Hapi는 버그를 최소화하고 코드의 가독성을 향상시키기 위해 강력한 코딩 커버리지를 가지고 있습니다.
+관련 사이트: https://hapi.dev/
+
+Hapi는 확장 가능한 웹 애플리케이션을 만드는데 사용되는 백엔드 프레임워크입니다. Hapi는 외부 코드와 어떠한 의존성도 갖지 않으므로 모든 코드들이 검증 되었다고 볼 수 있습니다. Hapi는 서명 및 암호화된 쿠키와 HTTP 보안 헤더 등을 제공하는 등 보안성에 많은 관심을 가지고 있습니다. 개발자들은 문제들을 해결하기 위해 다른 npm 패키지에 의존할 필요 없이 Hapi에서 제공하는 자체 공식 플러그인을 이용할 수 있습니다. 그리고 Hapi는 버그를 최소화하고 코드의 가독성을 향상시키기 위한 강력한 코딩 커버리지를 가지고 있습니다.
 
 ### 장점
 
@@ -87,6 +95,8 @@ Hapi는 개발자 경험을 우선순위에 두고 만들어져 있어 개발자
 Hapi는 다른 자바스크립트 백엔드 프레임워크와 비교했을 때 여전히 새롭습니다. 또한, 프로젝트를 시작하는데 있어 추가적인 설정이 필요하기도 합니다. 그리고 이는 퍼포먼스 저하로 이어지기도 합니다.
 
 ## Fastify
+
+관련 사이트: https://fastify.dev/
 
 Fastify는 비동기 함수를 지원하는 가볍고 빠르며 모듈화된 백엔드 프레임워크입니다.
 
@@ -112,5 +122,5 @@ Fastify는 비동기 함수를 지원하므로 상대적으로 러닝 커브가 
 
 ## 참고
 
-https://www.geeksforgeeks.org/best-backend-javascript-frameworks/
-https://medium.com/@alielmalki.developer/fastify-vs-express-which-is-the-best-api-framework-for-node-js-4bad807af0d9
+- https://www.geeksforgeeks.org/best-backend-javascript-frameworks/
+- https://medium.com/@alielmalki.developer/fastify-vs-express-which-is-the-best-api-framework-for-node-js-4bad807af0d9
