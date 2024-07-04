@@ -125,7 +125,7 @@ public class RedisMessageSubscriber implements MessageListener {
 
     @Override
     public void onMessage(Message message, byte[] pattern) {
-        // 메시지 처리 로직
+        // to-do 메시지 처리 로직
     }
 }
 
