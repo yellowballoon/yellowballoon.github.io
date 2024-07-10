@@ -1,7 +1,7 @@
 ---
 title: "Spring Session"
 date: 2024-05-22 13:14:00 -0000
-categories: notice
+categories: wiki
 author: kdg1986
 tags: wiki spring session
 ---
