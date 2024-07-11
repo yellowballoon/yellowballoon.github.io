@@ -19,15 +19,17 @@ Redis (REmote DIctionary Server)는 오픈 소스 인메모리 데이터 구조 
 
 #### 2. 다양한 데이터 구조:
 
-- 문자열: 단순한 키-값 쌍.
-- 리스트: 순서가 있는 문자열 컬렉션.
-- 셋: 중복이 없는 문자열의 집합.
-- 정렬된 셋: 점수를 기준으로 정렬된 문자열의 집합.
-- 해시: 필드와 값의 쌍으로 이루어진 맵.
-- 비트맵: 비트 단위의 조작.
-- 하이퍼로그로그: 근사 카디널리티 계산을 위한 확률적 데이터 구조.
-- 지오스페이셜 인덱스: 지리적 좌표를 기반으로 한 데이터 구조.
-- 스트림: 타임 시퀀스 데이터 구조.
+![/assets/images/redis-data-structures.png]
+
+- String: 단순한 키-값 쌍.
+- List: 순서가 있는 문자열 컬렉션.
+- Set: 중복이 없는 문자열의 집합.
+- Sorted Set(ZSet): 점수를 기준으로 정렬된 문자열의 집합.
+- Hashe: 필드와 값의 쌍으로 이루어진 맵.
+- Bitmap: 비트 단위의 조작.
+- Hypperloglogs: 근사 카디널리티 계산을 위한 확률적 데이터 구조.
+- Geospatial Indexes: 지리적 좌표를 기반으로 한 데이터 구조.
+- Streams: 타임 시퀀스 데이터 구조.
 
 #### 3. 고가용성:
 
@@ -125,7 +127,7 @@ public class RedisMessageSubscriber implements MessageListener {
 
     @Override
     public void onMessage(Message message, byte[] pattern) {
-        // to-do 메시지 처리 로직
+        // To-do 메시지 처리 로직
     }
 }
 
@@ -364,6 +366,8 @@ spring.redis.client-type=jedis
 
 ## 참고
 [Redis-Docs](https://redis.io/docs/latest/)
+
+[[NHN FORWARD 2021] Redis 야무지게 사용하기](https://youtu.be/92NizoBL4uA?si=AwZJGS7V7nMuO9Ph)
 
 [[우아한테크세미나] 191121 우아한레디스 by 강대명님](https://youtu.be/mPB2CZiAkKM?feature=shared)
 
