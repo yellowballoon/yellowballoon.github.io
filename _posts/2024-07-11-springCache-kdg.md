@@ -54,5 +54,4 @@ tags: wiki spring cache
 - Redis
 - Caffeine
 - Cache2k
-- Simple 
-
+- Simple
