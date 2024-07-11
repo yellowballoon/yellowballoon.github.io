@@ -19,7 +19,7 @@ Redis (REmote DIctionary Server)는 오픈 소스 인메모리 데이터 구조 
 
 #### 2. 다양한 데이터 구조:
 
-![/assets/images/redis-data-structures.png]
+![redis-data-structures](/assets/images/redis-data-structures.png)
 
 - String: 단순한 키-값 쌍.
 - List: 순서가 있는 문자열 컬렉션.
