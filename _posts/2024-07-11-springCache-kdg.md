@@ -28,3 +28,31 @@ tags: wiki spring cache
 
 캐시 히트율을 높이려면 자주 참조되며 수정이 잘 발생하지 않는 데이터들로 구성해야 합니다.
 
+## Local Cache
+
+로컬 서버 내부 저장소에 데이터를 캐시합니다.
+
+해당 서버에 데이터가 있어서 속도가 빠르다는 장점이 있지만
+
+다중 서버 환경에서는 각 서버에 중복된 데이터를 캐싱해야하고 서버간 데이터 일관성이 깨질 수 있습니다.
+
+## Global Cache
+
+별도의 저장소에 데이터를 캐싱 하는 것입니다.
+
+저장소에 접근하는 부분이 있어 로컬에 비해 속도가 느리지만 중복데이터나 일관성에 문제가 없다는 장점이 있습니다.
+
+# Spring Cache
+
+스프링 캐시 추상화는 여러 캐시 프로바이더를 의존합니다.
+
+- Generic
+- JCache (JSR-107) (EhCache 3, Hazelcast, Infinispan, and others)
+- Hazelcast
+- Infinispan
+- Couchbase
+- Redis
+- Caffeine
+- Cache2k
+- Simple 
+
