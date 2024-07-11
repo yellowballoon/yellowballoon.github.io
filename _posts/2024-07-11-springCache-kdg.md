@@ -42,7 +42,7 @@ tags: wiki spring cache
 
 저장소에 접근하는 부분이 있어 로컬에 비해 속도가 느리지만 중복데이터나 일관성에 문제가 없다는 장점이 있습니다.
 
-# Spring Cache test
+# Spring Cache
 
 스프링 캐시 추상화는 여러 캐시 프로바이더를 의존합니다.
 
