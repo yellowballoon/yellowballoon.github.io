@@ -115,7 +115,7 @@ author:
   avatar: /assets/images/ybcloud.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "나는 **관리자**"
   location: "서울, 대한민국"
-  email: "master@ybtour.com"
+  email: "front.one@ybtour.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

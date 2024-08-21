@@ -1,6 +1,6 @@
 main:
   - title: "공지사항"
-    url: /notics/
+    url: /categories/#notice
   - title: "카테고리"
     url: /categories/
   - title: "태그"
