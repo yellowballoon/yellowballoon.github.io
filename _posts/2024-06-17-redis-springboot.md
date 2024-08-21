@@ -98,6 +98,7 @@ Spring Boot와 Redis의 결합은 애플리케이션의 성능 향상과 데이�
 
 - Spring Boot 애플리케이션에서는 데이터를 캐시하여 데이터베이스 조회를 최소화하고 성능을 최적화할 수 있습니다. Redis는 메모리 기반 데이터 저장소로 매우 빠른 데이터 접근 속도를 제공하므로 캐싱 솔루션으로 적합합니다.
 - Spring Cache Abstraction과 함께 Redis를 사용하여 캐시 레이어를 손쉽게 구성할 수 있습니다.
+
 ```java
 @Service
 public class UserService {
@@ -113,6 +114,7 @@ public class UserService {
 
 - Spring Session을 사용하여 Redis를 세션 저장소로 구성할 수 있습니다. 이는 분산 환경에서 세션 데이터를 공유하는 데 유리하며, 세션의 지속성과 확장성을 높입니다.
 - 예를 들어, 여러 인스턴스의 애플리케이션 서버가 Redis를 통해 세션 데이터를 공유할 수 있습니다.
+
 ```properties
 spring.session.store-type=redis
 spring.redis.host=localhost
@@ -121,8 +123,8 @@ spring.redis.host=localhost
 #### 3. 메시지 브로커(Message Broker)
 
 - Redis의 Pub/Sub 기능을 사용하여 Spring Boot 애플리케이션 간에 메시지를 전달할 수 있습니다. 이를 통해 애플리케이션 간의 통신과 이벤트 처리를 효율적으로 관리할 수 있습니다.
-```java
 
+```java
 @Component
 public class RedisMessageSubscriber implements MessageListener {
 
