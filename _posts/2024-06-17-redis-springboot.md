@@ -122,6 +122,7 @@ spring.redis.host=localhost
 
 - Redis의 Pub/Sub 기능을 사용하여 Spring Boot 애플리케이션 간에 메시지를 전달할 수 있습니다. 이를 통해 애플리케이션 간의 통신과 이벤트 처리를 효율적으로 관리할 수 있습니다.
 ```java
+
 @Component
 public class RedisMessageSubscriber implements MessageListener {
 
