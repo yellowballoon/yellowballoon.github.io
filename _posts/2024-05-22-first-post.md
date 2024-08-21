@@ -30,15 +30,17 @@ tags: notice
 ## 작성자 등록
 - _data/authors.yml 파일에 작성.
 - 작성자로 사용할 닉네임을 정하고 지정한 닉네임만 사용.
+- name, email은 필수 작성.
 
-``` yaml
+```yaml
 yellowballoon:
   name: "yellowballoon(관리자)"
-  avatar: /assets/images/ybcloud.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: /assets/images/avatar/ybcloud.png # path of avatar image, e.g. "/assets/images/avatar/bio-photo.jpg"
   bio: "**관리자**"
   location: "서울, 대한민국"
   email: "front.one@ybtour.com"
 {본인 닉네임}:
   name: {닉네임}
+  email: {본인 이메일 주소}
   ...
 ```
