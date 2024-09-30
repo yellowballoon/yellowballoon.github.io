@@ -55,3 +55,73 @@ tags: wiki spring cache
 - Caffeine
 - Cache2k
 - Simple
+
+# Annotation
+
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/cache/annotation/package-summary.html
+
+
+## @Cacheable
+
+클래스/메소드에 사용이 가능함.
+
+여러 속성값을 통해 캐시 상태를 관리 하고 저장 할 수 있음.
+
+속성값에 조건을 입력하여 특정 조건일때만 캐시하도록 처리도 가능함.
+
+조건에 부합하는 캐시가 있는경우 캐시를에 저장된 데이터를 서빙함.
+
+```java
+
+    @RequestMapping("/api/test")
+    @Cacheable(cacheNames = "my",key = "#root.methodName")    
+    List<UserDTO> test(HttpServletRequest req) {
+        return userService.getTestUser();
+    }
+
+```
+- 캐시이름 : my
+- key : test 에 캐시를 저장함
+- #root 는 예약어 ( methodName , target , args , caches )
+
+## @CachePut
+
+클래스/메소드에 사용이 가능함.
+
+캐시를 단순 저장하는 용도로만 사용하는 어노테이션
+
+
+```java
+
+    @RequestMapping("/api/test")
+    @CachePut(cacheNames = "my",key = "#root.methodName")    
+    List<UserDTO> test(HttpServletRequest req) {
+        return userService.getTestUser();
+    }
+
+```
+- 캐시이름 : my
+- key : test 에 캐시를 저장함
+- #root 는 예약어 ( methodName , target , args , caches )
+
+
+## @CacheEvict
+
+클래스/메소드에 사용이 가능함.
+
+캐시를 삭제하는 어노테이션
+
+```java
+
+    @RequestMapping("/api/test/{code}")
+    @Cacheable(key = "#code",value = "my")
+    @CacheEvict(key = "#code",value = "my",condition = "#code == '2'" , beforeInvocation = true)
+    List<UserDTO> test(@PathVariable String code ) {
+        return userService.getTestUser();
+    }
+
+```
+- 캐시이름 : my ( value는 cacheNames의 alias임 )
+- key : code 파라미터 값
+- condition : code값이 2인경우에만 트리거 됨.
+- beforeInvocation : 메소드를 실행하기 전에 캐시를 삭제 처리함.
